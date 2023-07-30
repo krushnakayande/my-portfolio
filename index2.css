@@ -499,6 +499,7 @@ span{
 .Contact{
     min-height: auto;
     padding-bottom: 7rem;
+    background-color: var(--second-bg-color);
 }
 
 .Contact form{
@@ -553,13 +554,18 @@ span{
     display:flex;
     justify-content: space-between;
     color: var(--main-color);
-    height: 7rem;
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
     padding: 5rem;
     right: 0rem;
     
 }
 #footer-btn{
-    height: 2.5rem;
+    height: 3rem;
     width: 3rem;
+    border-radius: 50%;
+}
+
+.li-footer{
+    flex-direction: column;
+    justify-content: space-between;
 }
